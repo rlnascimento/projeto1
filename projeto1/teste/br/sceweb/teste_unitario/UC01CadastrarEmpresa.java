@@ -15,6 +15,12 @@ public class UC01CadastrarEmpresa {
 	public static void setUpBeforeClass() throws Exception {
 		empresa = new Empresa();
 		empresaDAO = new EmpresaDAO();
+		
+		empresa.setNomeDaEmpresa("Damaged Coda");
+		empresa.setCnpj("89424232000180");
+		empresa.setNomeFantasia("Blonde Redhead");
+		empresa.setEndereco("Rua Evil Morty");
+		empresa.setTelefone("2222");
 	
 	}
 /**
@@ -36,3 +42,16 @@ public class UC01CadastrarEmpresa {
 	}
 
 }
+
+/*  It all returns to nothing
+ *  It just keeps
+ *  TUMBLING DOWN
+ *  TUMBLING DOWN
+ *  TUMBLING DOWN
+ *  
+ *  It all returns to nothing
+ *  I just keep
+ *  LETTING ME DOWN
+ *  LETTING ME DOWN
+ *  LETTING ME DOWN
+ * */
